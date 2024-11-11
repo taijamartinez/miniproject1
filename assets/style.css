@@ -1,7 +1,20 @@
+* {
+    margin:0;
+    padding:0;  
+  }
+
 header {
+    position: fixed;
+    border: 100px;
+    top: 0px;
+    width: 1400px;
+    height: 80px;
    
 }
 
+body {
+    font-family: "Fira Sans", sans-serif;
+}
 
 h1 { 
     text-align: center; 
@@ -14,37 +27,44 @@ h1 {
     margin-left: 450px;
  }
 
- .figcaption {
-    text-align: center;
- }
 .card {
     text-align: center;
 }
 
-.contact2 {
-    font-color: grey;
+#contactForm {
+    
+    margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+  border: 5px solid rgb(205, 176, 181);
+  border-radius: 5px;
 
 }
 
 
 #github {
     display: inline;
-    border: 2px solid rgb(117, 117, 121); 
-    /* border: 3px blue; not working */
+    font-size: 25px;
+   
 }
 
 #portfolio {
     display: inline;
-    border: 2px solid rgb(117, 117, 121); 
+    font-size: 25px;
+    
 }
 
 #contact-me {
     display: inline;
-    border: 2px solid rgb(117, 117, 121); 
+    font-size: 25px;
+   
 }
 
 #contact-me-section {
-    font-color: black;
+    text-color: rgb(251, 251, 251);
+    background-color: rgb(76, 71, 75);
+    color:aliceblue;
+    
 }
 
 header,
@@ -52,4 +72,12 @@ footer {
     text-align: center;
     padding: 20px;
 background-color: rgb(205, 176, 181); 
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align:left;
 }
